@@ -8,9 +8,37 @@ export const Background = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: ${({ theme: { sz } }) => sz.md};
+`;
+
+export const MobileImage = styled.div`
+  display: none;
+  @media (${({ theme: { sc } }) => sc.lg}) {
+    display: block;
+  }
+`;
+
+export const PcImage = styled.div`
+  display: block;
+  @media (${({ theme: { sc } }) => sc.lg}) {
+    display: none;
+  }
 `;
 
 export const Container = styled.div`
-  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: ${({ theme: { sz } }) => sz.md};
+  @media (${({ theme: { sc } }) => sc.lg}) {
+    flex-direction: column;
+  }
+`;
+
+export const HeaderContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  P {
+    text-align: center;
+  }
 `;

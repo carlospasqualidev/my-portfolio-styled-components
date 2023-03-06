@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-
+// TODO ARRUMAR SIDEBAR NO RESPONSIVO, AO CLICAR EM OUTRA TELA A SIDEBAR FICA PARADA
 export const Background = styled.header<{ mobileMenuIsOpen: boolean }>`
   background-color: ${({ theme: { cl, tp } }) => cl.primary + tp.t80};
   display: flex;
