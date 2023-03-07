@@ -1,1 +1,0 @@
-export { AnimLetters } from "./AnimLetter";

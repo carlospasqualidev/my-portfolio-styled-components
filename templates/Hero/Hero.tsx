@@ -1,4 +1,5 @@
-import { BackgroundCircles, MobileBackgroundCircles } from "../../Organisms";
+import { BackgroundCircles } from "../../components";
+import { MobileBackgroundCircles } from "../../components/BackgroundCircles";
 import * as s from "./styles";
 
 interface IHero {

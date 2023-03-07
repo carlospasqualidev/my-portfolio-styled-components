@@ -1,7 +1,7 @@
 import Head from "next/head";
 import * as s from "./styles";
-import { Navbar } from "../components/Organisms";
-import { Hero, About } from "../components/Templates";
+import { Hero, About, Experiences } from "../templates";
+import { Navbar } from "../components";
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
       <s.Body>
         <Hero id="hero" />
         <About id="about" />
+        <Experiences id="experiences" />
       </s.Body>
     </s.Background>
   );

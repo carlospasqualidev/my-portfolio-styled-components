@@ -133,6 +133,7 @@ declare module "styled-components" {
       xsHoverScale: string;
       xsmHoverScale: string;
       smHoverScale: string;
+      rotateToRight: string;
     };
 
     /**

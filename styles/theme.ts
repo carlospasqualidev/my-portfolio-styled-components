@@ -57,6 +57,9 @@ export const theme: DefaultTheme = {
     xsmHoverScale:
       "transition: 200ms ease-in; :hover{ transform: scale(1.10);}",
     smHoverScale: "transition: 200ms ease-in; :hover{ transform: scale(1.25);}",
+
+    rotateToRight:
+      "transition: 200ms ease-in; :hover {transform: rotate(4deg);}",
   },
 
   sc: {

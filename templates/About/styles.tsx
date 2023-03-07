@@ -22,6 +22,8 @@ export const PcImage = styled.div`
   @media (${({ theme: { sc } }) => sc.lg}) {
     display: none;
   }
+
+  ${({ theme: { an } }) => an.rotateToRight}
 `;
 
 export const Container = styled.div`
@@ -37,6 +39,7 @@ export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: ${({ theme: { sz } }) => sz.xsm};
 
   P {
     text-align: center;

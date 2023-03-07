@@ -1,11 +1,10 @@
-import { images } from "../../../assets/index";
-
 import { motion } from "framer-motion";
 
 import * as s from "./styles";
 import Image from "next/image";
-import { Typewriter } from "../../Atoms";
 import { useTheme } from "styled-components";
+import { images } from "../../assets";
+import { Typewriter } from "../Typewriter";
 
 export const BackgroundCircles = () => {
   const { cl, sz } = useTheme();

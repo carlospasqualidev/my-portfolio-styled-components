@@ -2,7 +2,6 @@ import styled, { CSSProperties } from "styled-components";
 
 export const LetterContainer = styled.div`
   display: flex;
-  width: fit-content;
 `;
 
 export const Letters = styled.div<{ style: CSSProperties }>`

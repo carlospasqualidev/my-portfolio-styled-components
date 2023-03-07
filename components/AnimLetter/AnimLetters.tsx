@@ -10,7 +10,7 @@ export const AnimLetters = ({ text, style }: IAnimLetters) => (
   <s.LetterContainer>
     {text.split("").map((element, index) => (
       <s.Letters style={style} key={element + index}>
-        <p key={element + index}>{element}</p>
+        {element}
       </s.Letters>
     ))}
   </s.LetterContainer>

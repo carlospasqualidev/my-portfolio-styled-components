@@ -10,7 +10,7 @@ export const Background = styled.header<{ mobileMenuIsOpen: boolean }>`
   width: 100%;
   position: fixed;
   z-index: 10;
-
+  top: 0;
   button {
     display: none;
   }
@@ -19,7 +19,6 @@ export const Background = styled.header<{ mobileMenuIsOpen: boolean }>`
     height: ${({ theme }) => theme.sz.xlg3};
     align-items: start;
     justify-content: end;
-    position: absolute;
     width: 100vw;
 
     button {
