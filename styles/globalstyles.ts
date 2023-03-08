@@ -5,12 +5,6 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background-color: ${({ theme }) => theme.cl.background};
     color: ${({ theme }) => theme.cl.white};
-    scroll-behavior: smooth;
-
-    padding: 0;
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   a {
@@ -19,7 +13,13 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   * {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    scroll-behavior: smooth;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+
   }
 
   ul{
@@ -30,6 +30,4 @@ export const GlobalStyle = createGlobalStyle`
     all: unset;
     cursor: pointer;  
   }
-  
-
 `;

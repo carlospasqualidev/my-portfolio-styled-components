@@ -1,5 +1,6 @@
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { CSSProperties } from "styled-components";
+import { H4 } from "../Typography";
 
 interface ITypeWriter {
   words: string[];
@@ -14,9 +15,9 @@ export const Typewriter = ({ words, style }: ITypeWriter) => {
   });
 
   return (
-    <h3 style={style}>
+    <H4 style={style}>
       <span>{text}</span>
       <Cursor cursorColor="#b91c1c" />
-    </h3>
+    </H4>
   );
 };

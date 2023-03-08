@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import { FaTimes, FaBars } from "react-icons/fa";
+import { P } from "../Typography";
 
 import * as s from "./styles";
 

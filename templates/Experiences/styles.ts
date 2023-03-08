@@ -9,3 +9,19 @@ export const Background = styled.div`
   align-items: center;
   justify-content: center;
 `;
+
+export const CardContent = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-inline-start: 80px;
+    list-style: square;
+  }
+`;

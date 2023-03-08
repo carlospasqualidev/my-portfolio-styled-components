@@ -4,6 +4,7 @@ import * as s from "./styles";
 import { images } from "../../assets";
 import { useTheme } from "../../styles/useTheme";
 import { AnimLetters } from "../../components";
+import { P } from "../../components/Typography";
 
 interface IAbout {
   id: string;
@@ -42,12 +43,11 @@ export function About({ id }: IAbout) {
           <AnimLetters
             style={{
               marginRight: sz.xsm,
-              fontSize: "2rem", //xlg
             }}
             text="Sobre mim"
           />
 
-          <p>
+          <P>
             Acadêmico de Engenharia da Computação na UNISATC. Desenvolvedor Web
             Full Stack na Ada Ada Lovelace Software House, com conhecimento em
             Javascript, Typescript e nos frameworks ReactJS, Styled Components,
@@ -56,7 +56,7 @@ export function About({ id }: IAbout) {
             projeto Programando a Vida. Apaixonado pela programação, busca
             excelência no que faz, é proativo, gosta do compartilhamento e da
             troca de conhecimento.
-          </p>
+          </P>
         </s.HeaderContainer>
       </s.Container>
     </s.Background>

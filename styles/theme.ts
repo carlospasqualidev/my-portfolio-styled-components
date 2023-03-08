@@ -49,7 +49,7 @@ export const theme: DefaultTheme = {
     xlg2: "font-size: 2.25rem; line-height: 2.5rem;",
     xlg3: "font-size: 3rem; line-height: 1;",
     xlg4: "font-size: 3.75rem; line-height: 1;",
-    xlg5: "font-size: 1.5rem; line-height: 1;",
+    xlg5: "font-size: 4rem; line-height: 1;",
   },
 
   an: {

@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useTheme } from "styled-components";
 import { images } from "../../assets";
 import { Typewriter } from "../Typewriter";
+import { H6 } from "../Typography";
 
 export const BackgroundCircles = () => {
   const { cl, sz } = useTheme();
@@ -69,7 +70,7 @@ export const BackgroundCircles = () => {
           marginTop: "25%",
         }}
       >
-        <p
+        <H6
           style={{
             letterSpacing: sz.xsm,
             fontWeight: "bold",
@@ -77,7 +78,7 @@ export const BackgroundCircles = () => {
           }}
         >
           Computer Engineer
-        </p>
+        </H6>
         <Typewriter
           style={{ fontWeight: "bold" }}
           words={[
